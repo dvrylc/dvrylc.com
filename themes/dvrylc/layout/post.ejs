@@ -1,0 +1,10 @@
+<article class="post">
+  <h2><%- page.title %></h2>
+  <p class="post-meta">
+    <time datetime="<%- moment(page.date).toISOString() %>">
+      Posted on <%- date(page.date, 'D MMMM YYYY') %>
+    </time>
+  </p>
+
+  <%- page.content %>
+</article>

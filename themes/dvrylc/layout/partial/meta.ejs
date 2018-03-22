@@ -1,0 +1,13 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- SEO -->
+<meta name="author" content="<%- config.author %>">
+<meta name="description" content="<%- page.excerpt ? strip_html(page.excerpt) : config.description %>">
+
+<!-- Open Graph -->
+<meta property="og:title" content="<%- config.title %>">
+<meta property="og:description" content="<%- page.excerpt ? strip_html(page.excerpt) : config.description %>">
+<meta property="og:type" content="website">
+<meta property="og:url" content="<%- config.url %>">
+<meta property="og:image" content="<%- config.url %>/icon.jpg">
