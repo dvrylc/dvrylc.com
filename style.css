@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  max-width: 600px;
+  margin: 4em auto;
+  padding: 0 1em;
+
+  font-family: "Avenir", -apple-system, "BlinkMacSystemFont", "Helvetica Neue", "Lucida Grande", sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2 {
+  font-weight: 600;
+  margin: 0;
+}
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.4em;
+}
+h1 a,
+h2 a,
+h1 a:hover, h1 a:focus, h1 a:active,
+h2 a:hover, h2 a:focus, h2 a:active {
+  color: black;
+}
+
+p,
+.links {
+  margin: 0 0 1.5em 0;
+}
+
+a {
+  color: #1565C0;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 200ms;
+}
+a:hover, a:focus, a:active {
+  color: #2196F3;
+  border-bottom: 1px solid;
+}
+
+.links a,
+.social a {
+  margin-right: 1em;
+}
+
+.social a,
+.social a:hover, nav a:focus, nav a:active {
+  border: 0;
+}
+svg {
+  width: 1.2em;
+}
+
+/* Portfolio cards */
+.card {
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 1.5em;
+  padding: 1em;
+  background: #f7f7f7;
+  border-radius: 4px;
+
+  font-size: 1rem;
+}
+.card p {
+  margin: 0;
+}
+.card-type {
+  font-size: 0.8em;
+  color: #c4c4c4;
+}
+
+/* Media queries */
+@media only screen
+and (max-width: 420px) {
+  body {
+    font-size: 1.125em;
+    margin: 2.5em auto;
+  }
+}
